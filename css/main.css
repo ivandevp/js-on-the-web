@@ -1,0 +1,20 @@
+.two-column {
+  text-align: center;
+  width: 100%;
+  clear: both;
+}
+
+.two-column > .left {
+  float: left;
+  width: 50%;
+}
+
+.two-column > .right {
+  float: right;
+  width: 50%;
+}
+
+.img-responsive {
+  width: 50%;
+  height: 50%;
+}
