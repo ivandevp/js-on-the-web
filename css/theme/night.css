@@ -3,29 +3,30 @@
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+/*@import url(https://fonts.googleapis.com/css?family=Montserrat:700);*/
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);*/
+@import url('https://fonts.googleapis.com/css?family=Cambay');
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #111;
-  background-color: #111; }
+  background: #4C4C4C;
+  background-color: #333333; }
 
 .reveal {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Cambay', sans-serif;
   font-size: 40px;
   font-weight: normal;
-  color: #eee; }
+  color: #BBBCE8; }
 
 ::selection {
   color: #fff;
-  background: #e7ad52;
+  background: #9CBFB1;
   text-shadow: none; }
 
 ::-moz-selection {
   color: #fff;
-  background: #e7ad52;
+  background: #9CBFB1;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -43,11 +44,11 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #eee;
-  font-family: "Montserrat", Impact, sans-serif;
-  font-weight: normal;
+  color: #FFB000;
+  font-family: 'Cambay', sans-serif;
+  font-weight: bold;
   line-height: 1.2;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.05em;
   text-transform: none;
   text-shadow: none;
   word-wrap: break-word; }
@@ -208,14 +209,14 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #e7ad52;
+  color: #BFBE99;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #f3d7ac;
+  color: #9292B5;
   text-shadow: none;
   border: none; }
 
